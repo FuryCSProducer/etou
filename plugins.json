@@ -1,0 +1,33 @@
+{
+	"plugin_name": "etou",
+	"plugin_scope": "etou",
+	"plugin_exec": "etou.js",
+	"command_map": {
+		"etou": {
+			"hargs": {
+				"vi_VN": "",
+				"en_US": ""
+			},
+			"hdesc": {
+				"vi_VN": "<@mention> [etou]",
+				"en_US": ""
+			},
+			"fscope": "etou",
+			"compatibly": 0
+		}
+	},
+	"author": "FuryCS mod lại của Wua'n",
+	"version": "0.1.0",
+	"node_depends": {
+		"node-fetch": "*",
+		"wait-for-stuff": "*",
+		"fs": "*",
+		"path": "*",
+		"stream-buffers": "*",
+		"merge-images": "*",
+		"wait-on": "*",
+		"jimp": "*"
+	},
+	"file_map": {},
+	"complied_for": "0.5.0"
+}
